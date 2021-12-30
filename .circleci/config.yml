@@ -33,7 +33,7 @@ jobs:
     docker:
       - image: circleci/ruby:2.6.0-node
     environment:
-      BUNDLE_PATH: ~/braziliansinrobotics/vendor/bundle
+      BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
       - checkout
       - restore_cache:
