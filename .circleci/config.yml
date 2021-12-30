@@ -83,7 +83,7 @@ jobs:
       - image: circleci/python:3.6.3
     environment:
       S3_BUCKET_NAME: braziliansinrobotics.com-production
-      CLOUD_FRONT_DIST_ID: E1HS49UD9J3PIC
+      CLOUD_FRONT_DIST_ID: E1XMNKZE5M2Q2F
     steps:
       - attach_workspace:
           at: ./
