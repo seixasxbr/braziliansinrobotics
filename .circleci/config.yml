@@ -12,8 +12,8 @@ references:
     run:
       name: Set AWS credentials
       command: |
-        aws configure set aws_access_key_id ${AKIAW5NOCLX4GYTHYA5U}
-        aws configure set aws_secret_access_key ${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}
+        aws configure set aws_access_key_id ${AWS_ACCESS_KEY_ID}
+        aws configure set aws_secret_access_key ${AWS_SECRET_ACCESS_KEY}
   deploy_to_s3: &deploy_to_s3
     run:
       name: Upload to s3 
