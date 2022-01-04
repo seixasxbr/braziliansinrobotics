@@ -1,5 +1,5 @@
 defaults: &defaults
-  working_directory: ~/repo
+  working_directory: ~/braziliansinrobotics
 version: 2
 
 references:
@@ -68,8 +68,8 @@ jobs:
     docker:
       - image: circleci/python:3.6.3
     environment:
-      S3_BUCKET_NAME: braziliansinrobotics.me-staging
-      CLOUD_FRONT_DIST_ID: E5BL132AGVRCS
+      S3_BUCKET_NAME: braziliansinrobotics.com-staging
+      CLOUD_FRONT_DIST_ID: ETQ1OHR8ANX6R
     steps:
       - attach_workspace:
           at: ./
@@ -82,8 +82,8 @@ jobs:
     docker:
       - image: circleci/python:3.6.3
     environment:
-      S3_BUCKET_NAME: braziliansinrobotics.me-production
-      CLOUD_FRONT_DIST_ID: E1HS49UD9J3PIC
+      S3_BUCKET_NAME: braziliansinrobotics.com
+      CLOUD_FRONT_DIST_ID: E1KPDD2AW6QACG
     steps:
       - attach_workspace:
           at: ./
