@@ -98,10 +98,17 @@ Para missões indoor, pode ser usado o Vicon Motion Capture System, que estima a
 
 Pode-se realizar a fusão sensorial de diversos sensores para se obter uma boa estimativa da localização da aeronave. A técnica mais amplamente utilizada é a de filtragem, como a do filtro estendido de kalman (EKF), porém ela sofre com o drift, que é um deslocamento não considerado pela medição. Outra opção são frameworks de otimização não-linear, que apresentam resultados mais consistentes, porém apresentam custos computacionais superiores.
 
-
 ### Planejamento de Trajetória
 
-planning
+O planejamento de trajetória é fundamental para que o quadrotor se torne uma plataforma completamente autônoma. Através dessa funcionalidade o veículo pode calcular uma rota para se deslocar da sua posição atual até uma posição final sem a interferência humana, sendo de extrema importância para o objetivo final do projeto que é tornar o drone capaz de realizar um pouso autônomo em uma plataforma móvel.
+
+Em (CHEN et al., 2016b) é feito o planejamento de trajetória através da técnica Artificial Potential Field (APF), que é vantajosa por ser implementada através de um algoritmo de estrutura simples, com uma descrição matemática consistente e conveniente para controle em tempo real, além de possuir uma grande portabilidade, podendo solucionar o problema de desvio de obstáculos mudando a fonte do campo potencial artificial.O APF é baseado na ideia de que o destino funciona como um campo potencial atrativo para o UAV, enquanto os obstáculos funcionam como campos potenciais repulsivos.
+
+Em (CHEN et al., 2016a) , é utilizado um algoritmo de otimização derivado do Central Force Optimization (CFO), chamado de Modified Central Force Optimization. O CFO é um algoritmo de otimização de partícula inteligente baseado na lei da gravidade, onde cada solução é uma partícula. As partículas se atraem com a força gravitacional virtual. As massas dessas partículas são dependentes da função custo de cada solução.
+
+Em (ROBERGE; TARBOUCHI; LABONTE, 2013) foi feito um estudo de comparação entre o planejamento de trajetória através do algoritmo genético (GA) e da otimização por enxame de partículas (PSO) em simulação. Ambas as técnicas apresentaram boas soluções em tempos computacionais relativamente curtos . Como conclusão foi observado que com significância estatística o GA apresenta melhores trajetórias ao PSO. Para comparar os resultados foi realizar o t-teste sobre o a função custo.
+
+Em (MUELLER; HEHN; ANDREA, 2015), é apresentado um método computacionalmente eficiente que calcula trajetórias com funções de posição polinomiais três vezes diferenciáveis, considerando as restrições de velocidade e aceleração do veículo. O algoritmo foi testado com a captura de uma bola arremessada.
 
 ## Aplicações
 
