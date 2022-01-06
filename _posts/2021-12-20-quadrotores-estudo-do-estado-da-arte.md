@@ -15,7 +15,7 @@ tags: [blog] #AJUSTAR
 Quadrotores são aeronaves de asas rotativas, ou seja, são sustentadas e movimentadas
 por rotores. Diferente das aeronaves de asas fixas, como aviões, as aeronaves de asas
 rotativas não utilizam seu movimento horizontal para sustentar seu vôo. Isso faz com que
-esse tipo de veículo apresente um consumo energético muito alto {% cite karydis2017energetics %}. Apesar disso, as aeronaves de asas rotativas apresentam alta manobrabilidadee, possuem a habilidade de realizar pouso e decolagem vertical e também de realizar vôos estacionários ou quase estacionários.
+esse tipo de veículo apresente um consumo energético muito alto {% cite karydis2017energetics %}. Apesar disso, as aeronaves de asas rotativas apresentam alta manobrabilidade, possuem a habilidade de realizar pouso e decolagem vertical e também de realizar vôos estacionários ou quase estacionários.
 
 Esses veículos são comumentes chamados de drones, que em inglês significa zangão ou zumbido, pelo barulho gerado pelos seus rotores em sua operação. Os movimentos do quadrotor são obtidos através da combinação das velocidades angulares desses rotores. Para balancear o contra-torque gerado por seus propulsores, é necessário que um par de rotores que estão em uma mesma haste esteja girando no sentido horário, enquanto o outro par de rotores esteja girando no sentido anti-horário.
 
@@ -88,7 +88,7 @@ Os controladores não-lineares mais amplamente utilizados são backstepping {% c
 
 ## Localização
 
-métodos
+A localização do quadrotor pode ser realizada de diversas formas utilizando tanto sensores
 
 ## Planejamento de Trajetória
 
