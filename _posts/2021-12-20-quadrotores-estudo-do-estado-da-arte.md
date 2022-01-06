@@ -10,8 +10,6 @@ comments: true
 tags: [blog] #AJUSTAR
 ---
 
-## Quadrotores
-
 Quadrotores são aeronaves de asas rotativas, ou seja, são sustentadas e movimentadas
 por rotores. Diferente das aeronaves de asas fixas, como aviões, as aeronaves de asas
 rotativas não utilizam seu movimento horizontal para sustentar seu vôo. Isso faz com que
@@ -54,7 +52,7 @@ A configuração em "+" é mais acrobática, entretanto, como desvantagens, a ha
 
 ## Principais Componentes
 
-Os principais componentes envolvidos no desenvolvimento de um VANT do tipo quadrotor são os rotores que serão responsáveis por toda movimentação do drone, baterias que irão garantir a energia necessária para os rotores, sensores inerciais que irão ser responsáveis pela localização do drone e microcontroladores, responsáveis pelo cálculo das ações de controle e a integração de hardware e software.
+Os principais componentes envolvidos no desenvolvimento de um VANT do tipo quadrotor são os <strong>rotores</strong> que serão responsáveis por toda movimentação do drone, <strong>baterias</strong> que irão garantir a energia necessária para os rotores, <strong>sensores inerciais</strong> que irão ser responsáveis pela localização do drone e <strong>microcontroladores</strong>, responsáveis pelo cálculo das ações de controle e a integração de hardware e software.
 
 Os VANTs são geralmente equipados com uma IMU (Inertial Measurement Unit), que são dispositivos compostos por giroscópios, acelerômetros e magnetômetros. Através da fusão sensorial é possível obter a atitude do robô e realizar odometria. Muita vezes também são utilizados sensores do tipo barômetro, que são sensores capazes de medir a pressão atmosférica. Como a pressão atmosférica varia com a altitude, é possível mensurar
 a altura da aeronave em relação ao nível do mar com a utilização desse sensor. 
@@ -70,11 +68,15 @@ Existem diversos modelos de microcontroladores no mercado, com diferentes frequ�
   <img src="{{ 'assets/img/sota-quadrotor/bench.png' | relative_url }}" width="750" text-align=center alt="img1" />
 </center>
 
-## Modelagem
+## Funcionalidades
 
-A modelagem de um quadrotor é uma das etapas mais importantes no desenvolvimento de um projeto envolvendo esse tipo de veículo. Por ser uma plataforma instável, se torna inviável realizar técnicas de identificação em malha aberta. Sendo assim, é necessário obter o modelo dinâmico da aeronave através de técnicas de modelagem. A modelagem da aeronave pode ser obtida através das equações de Newton-Euler ou através do formalismo de Euler-Lagrange {% cite castillo2005modelling %}. Através dessa modelagem é possível obter o modelo de alto nível, onde os torques e forças são entradas e as saídas são posições angulares e lineares.
+As funcionalidades mais importantes e mais estudas para uma plataforma do tipo quadrotor são <strong>controle, localização e planejamento de trajetória</strong>.
 
-## Controle
+<!-- <ul>
+  <li><font size="5"><strong>Controle</strong></font></li>
+</ul> -->
+
+### Controle
 
 Os quadrotores são veículos subatuados, instáveis e com comportamento dinâmico não-linear. Devido a essas características, é necessário projetar controladores bem ajustados para permitir um correto segmento de referência e rejeição de pertubação. É possível a utilização de controladores lineares, realizando a linearização do modelo dinâmico do robô para projetá-los, e também a utilização de controladores não-lineares para estabilizar e controlar a aeronave.
 
@@ -86,11 +88,18 @@ Os controladores lineares que são mais amplamente utilizados são os controlado
 
 Os controladores não-lineares mais amplamente utilizados são backstepping {% cite madani2006backstepping %}, {% cite Bouabdallah2005 %}, o sliding mode control (SMC) {% cite Zhao2018a %} e o controlador Fuzzy {% cite gautam2013control%}, {% cite nicol2008robust%}, {% cite santos2010intelligent%}.
 
-## Localização
+Para projetar os controladores é necessário fazer uma modelagem matemática do comportamento dinâmico do veículo. Por ser uma plataforma de equilíbrio instável, se torna inviável realizar técnicas de identificação em malha aberta. Sendo assim, é necessário obter o modelo dinâmico da aeronave através de técnicas de modelagem. A modelagem da aeronave pode ser obtida através das equações de Newton-Euler ou através do formalismo de Euler-Lagrange {% cite castillo2005modelling %}. Através dessa modelagem é possível obter o modelo de alto nível, onde os torques e forças são entradas e as saídas são posições angulares e lineares.
 
-A localização do quadrotor pode ser realizada de diversas formas utilizando tanto sensores
+### Localização
 
-## Planejamento de Trajetória
+A localização do quadrotor pode ser realizada utilizando sensores embarcados no veículo ou até mesmo utilizando sensores que são externos ao mesmo. O quadrotor pode fazer uso de sensores como LiDAR, GPS, IMU, câmeras monoculares ou estéreo, sensores ultrassônicos e lasers. Em {% cite loianno2016estimation %}, a localização de um quadrotor é realizada utilizando a fusão sensorial de uma câmera monocular com uma IMU. Em {% cite tomic2012toward %}, é feito a odometria da aeronave através da fusão sensorial feita por Filtro Estendido de Kalman de sensores laser com câmera estéreo, em aplicações de busca e resgate em ambiente urbano. É possível também obter bons resultados apenas utilizando câmeras monoculares, como mostrado em {% cite mur2015orb %} utilizando o pacote ORB SLAM.
+
+Para missões indoor, pode ser usado o Vicon Motion Capture System, que estima a pose do robô muito proximamente ao ground truth {% cite michael2010grasp %}. Essa técnica é muito precisa e tem um tempo de amostragem rápido. O seu funcionamento é baseado no monitoramento vicon markers fixados no quadrotor através de câmeras. 
+
+Pode-se realizar a fusão sensorial de diversos sensores para se obter uma boa estimativa da localização da aeronave. A técnica mais amplamente utilizada é a de filtragem, como a do filtro estendido de kalman (EKF), porém ela sofre com o drift, que é um deslocamento não considerado pela medição. Outra opção são frameworks de otimização não-linear, que apresentam resultados mais consistentes, porém apresentam custos computacionais superiores.
+
+
+### Planejamento de Trajetória
 
 planning
 
