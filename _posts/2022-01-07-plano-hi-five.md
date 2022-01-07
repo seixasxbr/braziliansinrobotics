@@ -3,7 +3,7 @@ layout: post-page
 title: Plano Hi-Five
 subtitle: Começando pelo propósito e terminando no plano para 2022
 cover-img: /assets/img/2022-01-07-plano-hi-five/anobstacle-2560x1085.jpg
-thumbnail-img: /assets/img/2022-01-07-plano-hi-five/hi-five.png
+thumbnail-img: /assets/img/2022-01-07-plano-hi-five/hi-five.png  
 author: Marco Reis
 comments: true
 tags: [blog]
@@ -20,11 +20,14 @@ O propósito de vida não se limita no tempo, não é um objetivo a ser alcança
 
 O propósito é o que te motiva acordar todos os dias com a energia fluindo entre os seus poros.
 
+Pensem no propósito como sendo a função da sua vida. Imagine você uma ferramenta, ela tem uma função. Foi desenvolvida e criada para tal. Agora imagina você sendo um **martelo** e querendo cortar um cabo elétrico. Muitas vezes somos **alicates** querendo martelar um prego, podemos até conseguir mas será trabalhoso e arriscado. Qual ferramenta você é? Qual a sua função? Qual o seu propósito?
+
+#### Cada pessoa tem o seu propósito
 É através do **propósito** que você buscará os resultados desejados para cada ano de sua vida.
 
 Se você não sabe qual o seu propósito, inicie este ano lembrando dos seus sonhos da tenra idade; aquilo que te motivou a pensar no futuro. Eu sugiro você refletir. Isso te levará a repensar sobre a vida e sua existência. 
 
-*Leia o libro ou veja o filme **A invenção de Hugo Cabret**, isso pode te inspirar.*
+> *Leia o livro ou veja o filme **A invenção de Hugo Cabret**, isso pode te inspirar.*
 
 <!-- [![O propósitco](https://img.youtube.com/vi/AIkWNjh_eo0/0.jpg)](https://www.youtube.com/watch?v=AIkWNjh_eo0 "A invenção de Hugo Cabret") -->
 
@@ -52,14 +55,14 @@ Esta abordagem é comumente conhecida como 5W1H, ou seja uma variação da abord
 Tendo isso em mente, você precisará alçar metas para o próximo ano.
 
 ### E porque ter metas?
-As metas te motivam para as conquistas dos seus objetivos, elas te levam em direção ao propósito de vida, são como placas sinalizadoras.
+As metas te motivam para as conquistas dos seus objetivos, elas te levam em direção ao propósito de vida, são como placas sinalizadoras daqueles que encontramos numa rodovia.
 
 A cada meta alcançada, haverá um estímulo e uma satisfação em continuar em direção ao seu propósito, reafirmando que o propósito será alcançado. Por isso, um dos pontos importantes para as metas é, além de ter o detalhamento pela abordagem de Aristóteles, é realizar um acompanhamento constantes das conquistas realizadas.
 
 ## Um plano para 2022  :hand:
 Eu sugiro você separar o seu plano de vida para 2022 em 5 dimensões:
 1. **Intelectualidade**
-	* Eu sempre começo meu plano por uma meta que envolve minha intelectualidade, neste quesito eu trato de coisas que possam me ajudar no meu propósito. Um exemplo seria aprender coreano, é lógico q como estou falando de meta, preciso estimar qual nível estarei até o final do ano. Eu tenho que ter uma forma de medir este avanço.
+	* Eu sempre começo meu plano por uma meta que envolve minha intelectualidade, neste quesito eu trato de coisas que possam me ajudar no meu propósito. Um exemplo seria **aprender coreano**, é lógico que como estou falando de meta, preciso estimar qual nível estarei até o final do ano. Eu tenho que ter uma forma de medir este avanço.
 3. **Financeira**
 	* Esta dimensão é uma das mais compreendidas, mas deve ter também um detalhamento, seja para ter um salário maior ou um lucro maior. E veja, o mais importante não é ganhar mais grana, mas sim fazer mais grana. Se você não tem um bom entendimento disso, sugiro você ler [Pai Rico Pai Pobre](https://www.amazon.com.br/Pai-rico-pai-pobre-anos/dp/8550801488/ref=sr_1_5?crid=2L7G0IS7P04RI&keywords=pai+rico+pai+pobre&qid=1641215335&sprefix=pai%2Caps%2C199&sr=8-5).
 5. **Familiar**
@@ -69,7 +72,11 @@ Eu sugiro você separar o seu plano de vida para 2022 em 5 dimensões:
 9. **Espiritualidade**
 	* Não é por ser a última dimensão que é a menos importante, na verdade entendo ser a mais importante. É a base do meu ser. É a profundidade da minha personalidade. E para esta meta buscar conhecer-se é importantíssimo. Faça um **Conheça a ti mesmo**. Peça ajuda. Converse com as pessoas e escute. Escute muito, e você verá através do filtro das outras pessoas quem é você para eles. Isso confrontará a sua ideia de como você é, dessa forma você refletirá quem você realmente é.
 
+Entendo que com estas cinco dimensões conseguiremos abrangir a totalidade de nossas ansiedades ao longo do ano. No fim, elas dão um sentido de **completude** da vida.
 
+<br>
+
+#### É preciso ter metas
 Crie pelo menos uma meta para cada dimensão. Fazendo isso você abrangerá as suas relações, tanto internas como externas. Eu acredito que cada ser humano tem a sua completude nas 5 dimensões apresentadas acima. Você tendo metas para cada uma delas, você estará abrangindo todos os espectros do ser humano.
 
 Eu acredito que com o plano (eu chamo esse plano de **Hi-Five** :hand:) formado, você verá que o ano de 2022 te trará maiores conquistas do que o ano de 2021.
