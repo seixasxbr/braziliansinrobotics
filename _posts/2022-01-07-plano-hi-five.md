@@ -3,7 +3,7 @@ layout: post-page
 title: Plano Hi-Five
 subtitle: Começando pelo propósito e terminando no plano para 2022
 cover-img: /assets/img/2022-01-07-plano-hi-five/anobstacle-2560x1085.jpg
-thumbnail-img: /assets/img/2022-01-07-plano-hi-five/hi-five.png  
+thumbnail-img: /assets/img/2022-01-07-plano-hi-five/plano5.png  
 author: Marco Reis
 comments: true
 tags: [blog]
