@@ -150,24 +150,6 @@ No tópico de controle, pode-se observar que é possível estabilizar o veículo
 
 A escolha correta de componentes também é uma tarefa importante, pois um dos grandes desafios atuais do desenvolvimento de um quadrotor é o tempo de vôo, devido ao seu alto gasto energético. A escolha de motores e microcontroladores mais eficientes, assim como de baterias com uma boa relação entre energia disponível e massa, é importante para tentar maximizar a autonomia.
 
-<!-- ## Resultados da Pesquisa
-
-Foi feito um estudo do ambiente de desenvolvimento dos quadrotores. Apresentando os tipos de ambiente que os esse tipo de aeronave opera, podendo ser indoor ou outdoor, suas principais aplicações e a situação atual do desenvolvimento, mostrando no que tem se concentrado as principais pesquisas e pesquisadores da área. 
-
-<center>
-  <img src="{{ 'assets/img/sota-quadrotor/Package_copter_microdrones_dhl.jpg' | relative_url }}" width="500" text-align=center alt="img1" />
-</center>
-
-
-Foram apresentadas as classificações que existem para esses veículos. Os quadrotores são classificados quanto ao seu peso, podendo ter diferentes categorias dependendo do autor, e também são classificados quanto à disposição dos seus rotores, podendo ter a configuração em "+" ou em "x".
-
-<center>
-  <img src="{{ 'assets/img/sota-quadrotor/configs.png' | relative_url }}" width="600" text-align=center alt="img1" />
-</center>
-
-Foi feito um estudo dos principais componentes que um quadrotor possui. Os modelos de sensores inerciais, motores, baterias e microcontroladores foram levantados para embasar uma escolha acertada no desenvolvimento de uma plataforma desse tipo.
-
-Por último foi feito o estudo das principais funcionalidades de um quadrotor. Sendo feito o estudo das principais técnicas de controle, falando um pouco de modelagem e identificação do sistema, principais técnicas de planejamento de trajetória e de localização. -->
 
 <!-- ## Documento Completo
 
