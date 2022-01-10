@@ -30,7 +30,8 @@ Resumidamente, o PRM constrói um grafo G(V,A) em que V é o conjunto de vértic
 [![drawing500](../assets/img/prm/images.png)](../assets/img/prm/images.png) -->
 
 <center>
-  <img src="{{ 'assets/img/prm/prm.gif' | relative_url }}" width="750" text-align=center alt="img1" />
+  <img src="{{ 'assets/img/prm/prm.gif' | relative_url }}" width="750" text-align=center alt="img1" /><br>
+  Fonte: <a href="https://blog.csdn.net/shoufei403/article/details/104007497">CSDN</a>
 </center>
 <br>
 
@@ -39,9 +40,11 @@ Resumidamente, o PRM constrói um grafo G(V,A) em que V é o conjunto de vértic
 O Turtlebot3 é um robô diferencial não-holonômico desenvolvido pela empresa Robotis e tem como o ambiente de desenvolvimento padrão o ROS (Robot Operating System). O Turtlebot3 tem como unidade central de processamento uma Raspberry Pi e o sistema operacional instalado nela foi o Ubuntu 20.04 com o ROS Noetic. O modelo escolhido para esse desenvolvimento foi o Waffle Pi, que conta o motor DYNAMIXEL (XM430-W210-T) e uma câmera Raspberry Pi, componentes que o diferenciam do modelo Burger, além do seu  formato. O Turtlebot3 conta com um sensor de escaneamento a laser LiDar, uma OpenCR, módulo Bluetooth e uma beteria Li-Po. 
 
 <center>
-  <img src="{{ 'assets/img/prm/turtlebot3_waffle_pi_components.png' | relative_url }}" width="750" text-align=center alt="img1" />
+  <img src="{{ 'assets/img/prm/turtlebot3_waffle_pi_components.png' | relative_url }}" width="750" text-align=center alt="img1" /><br>
+  Fonte: <a href="https://emanual.robotis.com/docs/en/platform/turtlebot3/features/#specifications">ROBOTIS</a>
 </center>
 <br>
+
 
 ## Desenvolvimento
 
