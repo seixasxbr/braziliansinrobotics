@@ -7,7 +7,7 @@ thumbnail-img: assets/img/quadrotor/dronecrop2.jpeg
 share-img: /assets/img/rosa-logo-redondo.png
 author: Mateus Seixas
 comments: true
-tags: [blog] #AJUSTAR
+tags: [rasc] #AJUSTAR
 ---
 
 Quadrotores são veículos aéreos não tripulados (VANTs) que são comumentes chamados de <strong>drones</strong>, que em inglês significa zangão ou zumbido, pelo barulho gerado pelos rotores em sua operação. Seu uso tem se popularizado tanto em aplicações civis como em aplicações militares, por serem muito ágeis, com grande manobrabilidade e payload, além de possuírem a habilidade de realizar vôos estacionários ou quase estacionários e também pouso e decolagem vertical.
