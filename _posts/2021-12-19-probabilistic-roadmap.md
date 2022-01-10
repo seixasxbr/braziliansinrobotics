@@ -7,7 +7,7 @@ thumbnail-img: assets/img/prm/TurtleBot3_WafflePi.png
 share-img: /assets/img/rosa-logo-redondo.png
 comments: true
 author: Mateus Seixas
-tags: [blog]
+tags: [rasc]
 ---
 <!-- ## Planejamento de Trajetória -->
 
