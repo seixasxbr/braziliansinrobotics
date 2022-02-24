@@ -36,4 +36,31 @@ Apesar do contexto do século vinte se apresentar como ***desafiador*** para as 
 > Ser listada pela Beta Kappa mostra o comprometimento de Edith com seus estudos ...
 
 Após a sua formatura, Edith ensinou matemática e física em uma escola particular em São Francisco e passou um pequeno tempo estudando engenharia civil em 1911, durante as férias do primeiro período em 1912 ela trabalhou como "Computador", era comum que ***mulheres*** com boa base de matemática trabalhassem
-executando cálculos para pesquisadores ou empresas. Nesse momento Edith demonstrava o seu potencial, e na AT&T ficou fascinada com conceitos como circuitos elétricos e linhas de transmissão, decidindo abandonar a Engenharia Civil e seguir com **Engenharia Elétrica no MIT**
+executando cálculos para pesquisadores ou empresas. A seguir um exemplo de funcionárias que trabalhavam como "Computadores humanos".
+
+
+{:.center bordered}
+[![drawing500](../assets/img/2022-02-21-edith-clarke/human_computers.jpg)](../assets/img/2022-02-21-edith-clarke/human_computers.jpg)
+
+{:.center}
+Computer assistants
+
+
+Nesse momento Edith demonstrava o seu potencial e na AT&T ficou fascinada com conceitos como circuitos elétricos e linhas de transmissão, decidindo abandonar a Engenharia Civil e seguir com **Engenharia Elétrica no MIT**, Edith se graduou em 1918 e continou o mestrado por mais um ano se tornando a **primeira mulher** a se graduar em Engenharia Elétrica na instituição.
+
+Um dos maiores feitos realizados por Edith foi a **calculadora Clarke** em 1921. O propósito da calculadora era de facilitar
+a análise de linhas de transmissão reduzindo o procedimento de cálculos em até **dez vezes**. A patente foi aprovada em Setembro de 1925.
+
+{:.center bordered}
+[![drawing500](../assets/img/2022-02-21-edith-clarke/clarke-calculator.png)](../assets/img/2022-02-21-edith-clarke/clarke-calculator.png)
+
+{:.center}
+Calculadora Clarke
+
+Edith Clark foi uma mulher de grande importância para engenharia, ela acreditava que existia demanda para bons trabalhos ...
+
+Em 1943, foi publicado o primeiro livro, intitulado “Circuit Analysis of A-C Power Systems”. O livro foi baseado em suas notas de aula na General Electric. Edith lecionou a engenheiros da GE por muitos anos. Sua obra foi muito usada como texto-base em cursos de engenharia e como referência a engenheiros que trabalhavam com sistemas de potência. Como já faz muito tempo, você pode encontrar uma cópia gratuita do primeiro volume aqui. É como voltar no tempo!
+
+
+> ”Não existe uma demanda para mulheres engenheiras, da mesma forma como não existe para médicas mulheres; mas sempre existe uma demanda para aqueles que conseguem fazer um bom trabalho” - Edith Clarke
+
