@@ -2,7 +2,7 @@
 layout: post-page
 title: Hedy Lamarr
 subtitle: Uma Artista Inventora
-cover-img: /assets/img/2022-03-01-hedy-lamarr/37195_53945_38711.jpg
+cover-img: /assets/img/2022-03-01-hedy-lamarr/vt-hedylamarr.jpg
 thumbnail-img: /assets/img/2022-03-01-hedy-lamarr/1200.jpg
 author: Mateus Seixas
 comments: true
