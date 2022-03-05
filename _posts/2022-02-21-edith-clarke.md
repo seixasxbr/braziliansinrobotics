@@ -2,9 +2,8 @@
 layout: post-page
 title: Edith Clarke
 subtitle: A mulher na engenharia
-cover-img: /assets/img/2022-02-22-edith-clarke/edith-clarke.jpg
-thumbnail-img: /assets/img/2021-12-14-ia-para-iniciantes/declare_AI.jpg
-share-img: /assets/img/2021-12-14-ia-para-iniciantes/declare_AI.jpg
+cover-img: /assets/img/2022-02-21-edith-clarke/edith-clarke.jpg
+thumbnail-img: /assets/img/2022-02-21-edith-clarke/edith-clarke2.jpeg
 author: Anderson Lima
 comments: true
 tags: [blog]
