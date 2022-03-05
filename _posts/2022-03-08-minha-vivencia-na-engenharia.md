@@ -2,7 +2,7 @@
 layout: post-page
 title: Minha vivência na engenharia
 subtitle: Especial Dia das Mulheres
-cover-img: /assets/img/2022-02-08-minha-vida-na-engenharia/bg1.jpeg
+cover-img: /assets/img/2022-03-08-minha-vida-na-engenharia/bg1.jpeg
 thumbnail-img: assets/img/people/juliana-1.png
 author: Juliana Santana
 comments: true
