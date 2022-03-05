@@ -2,22 +2,21 @@
 layout: post-page
 title: Enedina Marques
 subtitle: A primeira engenheira negra do Brasil
-cover-img: /assets/img/2022-02-06-enedina-marques/enedina-work.png
-thumbnail-img: /assets/img/2022-02-06-enedina-marques/Enedina_engenheira_01.jpg
+cover-img: /assets/img/2022-03-06-enedina-marques/enedina-work.png
+thumbnail-img: /assets/img/2022-03-06-enedina-marques/Enedina_engenheira_01.jpg
 author: Marco Reis
 comments: true
 tags: [blog]
 ---
 
 <!-- ## Introdução -->
-
 Ana Lins dos Guimarães Peixoto (20 de agosto de 1889 - 10 de abril de 1985), eis uma representante de um verdadeiro brasileiro típico. Aquele que não se deixa desvanecer diante das adversidades da vida. Aquele que tem a esperança estampada no peito varonil. 
 
 Ana Lins pelo pseudônimo de [Cora Coralina](https://pt.wikipedia.org/wiki/Cora_Coralina) fez brota seus poemas e contos aos 76 anos de vida, trazendo no ápice de sua sabedoria a docura em viver e em se transformar, em mudar de mente.
 
 Para aqueles que apreciam uma boa poesia; uma poesia marcante, neste [link](https://www.culturagenial.com/cora-coralina-poemas-essenciais/) há algumas das melhores poesias de Cora Coralina e com uma boa avaliação das mesmas. Vale a pena.
 
-![enedina-without-background.png](../assets/img/2022-02-06-enediina-marques/enedina-without-background.png)
+![enedina-without-background.png](../assets/img/2022-03-06-enedina-marques/enedina-without-background.png)
 
 Mas eu não vim aqui falar de uma grande expressão cultural. 
 
@@ -29,7 +28,7 @@ Além de exercer a profissão de engenheira, Enedina foi professora. Em 1945 for
 
 Bem antes de falar de sua vida de engenheira, é bom frisar que Enedina sempre foi envolvida com a educação. Ministrava sempre aulas de alfabetização em escolas da região. Exercendo essa profissão durante o dia e à noite fazia curso complementar em pré-engenharia para ingressar em engenharia.
 
-![turma-enedina.jpg](../assets/img/2022-02-06-enediina-marques/turma-enedina.jpg)
+![turma-enedina.jpg](../assets/img/2022-03-06-enedina-marques/turma-enedina.jpg)
 
 Trabalhando e estudando, Enedina ingressa na Faculdade de Engenharia da Universidade Federal do Paraná em 1940.
 
@@ -40,7 +39,7 @@ Mas perceba que mesmo com toda a ajuda, nada caiu do céu para Enedina. Sendo mu
 Vaidosa, Enedina sempre estava a andar pelas obras. Seu destaque fica para o Plano Hidroelétrico do estado do Paraná, apresentando estudos de aproveitamento das águas dos rios Capivari, Cahoeira e Iguaçu, tendo o seu ápice no projeto topográfico e construção da [Usina Capivari-Cachoeira](https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_Governador_Pedro_Viriato_Parigot_de_Souza).
 
 {:.center}
-![usina-capivari-cachoeira.jpeg](../assets/img/2022-02-06-enediina-marques/usina-capivari-cachoeira.jpeg)
+![usina-capivari-cachoeira.jpeg](../assets/img/2022-03-06-enedina-marques/usina-capivari-cachoeira.jpeg)
 
 Enedina chefiou muitos outros técnicos e engenheiros ao longo de sua bem sucedida carreira na área da engenharia, de forma competente e comprometida com os desafios do trabalho. Apesar do ostracismo atual, após a sua aposentadores Enedina recebeu algumas homenagens em vida, e até hoje segue sendo lembrada por aqueles que vivem lembrando das impetrações de uma mulher negra numa sociedade masculina e de certa forma racista pela época. Um video, editado pelo governo federal, traz um resumo de sua vida.
 
@@ -55,6 +54,7 @@ Enedina chefiou muitos outros técnicos e engenheiros ao longo de sua bem sucedi
 <!-- Bom se o seu **propósito** está definido, você necessitará de um plano. -->
 <!-- <br> -->
 <!-- detalhamento -->
+
 Hoje em dia há muitas informações sobre Enedina, mas entendo que ainda é pouco conhecida do *mainstream* brasileiro. Em minha pesquisa sobre a engenheira encontrei várias informações e materiais aqui no Brasil. E curiosamente alguns sites estrangeiros expuseram alguns recortes sobre a nossa engenheira Enedina, tais como o de [Luis Gustavo Reis](https://face2faceafrica.com/article/discover-enedina-alves-marques-story-the-first-black-female-engineer-in-brazil) em [Face2Face](https://face2faceafrica.com/) e de [Sed Miles](https://thehub.news/enedina-alves-marques-a-black-brazilian-hidden-figure/) no [The Hub News](https://thehub.news/).
 
 
