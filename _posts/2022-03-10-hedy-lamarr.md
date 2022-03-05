@@ -2,8 +2,8 @@
 layout: post-page
 title: Hedy Lamarr
 subtitle: Uma Artista Inventora
-cover-img: /assets/img/2022-03-01-hedy-lamarr/vt-hedylamarr.jpg
-thumbnail-img: /assets/img/2022-03-01-hedy-lamarr/1200.jpg
+cover-img: /assets/img/2022-03-10-hedy-lamarr/vt-hedylamarr.jpg
+thumbnail-img: /assets/img/2022-03-10-hedy-lamarr/1200.jpg
 author: Mateus Seixas
 comments: true
 tags: [blog]
@@ -11,7 +11,7 @@ tags: [blog]
 
 Muitas vezes aclamada como a mulher mais bonita do mundo, Hedy Lamarr foi uma artista que participou de mais de 30 filmes. Além de ser uma atriz muito talentosa, ela também foi uma grande cientista inventora e em 1997 recebeu o título de <strong>"mãe do telefone celular"</strong> graças às suas contribuições a um sistema de guiamento a rádio.
 <center>
-  <img src="{{ 'assets/img/2022-03-01-hedy-lamarr/1440_hedy-lamarr-9b80a8f0.jpg' | relative_url }}" width="750" text-align=center alt="img1" />
+  <img src="{{ 'assets/img/2022-03-10-hedy-lamarr/1440_hedy-lamarr-9b80a8f0.jpg' | relative_url }}" width="750" text-align=center alt="img1" />
 </center>
 
 Apesar de ser conhecida pelo seu nome artístico, seu verdadeiro nome é Hedwing Eva Maria Kiesler. Ela nasceu em Viena, a capital da Austria, em novembro de 1914 e morreu em Orlando, cidade da Florida, em janeiro de 2000. Já aos 10 anos de idade, ela era proficiente tanto no piano quanto na dança, além de falar 4 línguas. 
@@ -23,7 +23,7 @@ Aos 16 anos, Hedy ingressou na escola de drama de Max Reinhardt e após cerca de
 Na cidade de Londres, Hedy conheceu o diretor da MGM (Metro-Goldwin-Mayer) que lhe ofereceu um contrato para trabalhar em Hollywood, onde foi reconhecida como a mulher mais bonita do mundo. Lá ela estrelou em grandes filmes, como Algiers (1938), Boom Town (1940), Comrade X (1940) e Come Live with Me (1941). Ela atuou emprestada para outros estúdios, como no filme The Conspirators (1944) da Warner Bros. e no filme Experiment Perilous (1944) da RKO.
 
 <center>
-  <img src="{{ 'assets/img/2022-03-01-hedy-lamarr/Hedy-Lamarr-John-Hodiak-A-Lady-Without.jpg' | relative_url }}" width="750" text-align=center alt="img1" />
+  <img src="{{ 'assets/img/2022-03-10-hedy-lamarr/Hedy-Lamarr-John-Hodiak-A-Lady-Without.jpg' | relative_url }}" width="750" text-align=center alt="img1" />
 </center>
 <br>
 
@@ -34,7 +34,7 @@ Os talentos de Hedy Lamarr não se resumiam apenas ao lado artístico. Em seu te
 Durante a segunda guerra mundial, os torpedos guiados a rádio, que eram ainda uma tecnologia emergente, eram facilmente desviados através da contramedida conhecida como *jamming*. Hedy pensou em uma estratégia para alterar a frequência de transmissão constantemente de forma que os torpedos não pudessem sofrer com essa contramedida. Ela entrou em contato com seu amigo George Antheil, que era compositor e pianista, para ajudá-la a desenvolver essa tecnologia. Sua invenção foi patenteada em 1942, com o seu nome de casada "Hedy Kiesler Markey. A tecnologia era difícil de ser implementada na época, porém passou a ser usada a partir do ano de 1962 em navios de guerra.
 
 <center>
-  <img src="{{ 'assets/img/2022-03-01-hedy-lamarr/Camhi-Hedy-Lamarr-doc.jpg' | relative_url }}" width="750" text-align=center alt="img1" />
+  <img src="{{ 'assets/img/2022-03-10-hedy-lamarr/Camhi-Hedy-Lamarr-doc.jpg' | relative_url }}" width="750" text-align=center alt="img1" />
 </center>
 <br>
 
