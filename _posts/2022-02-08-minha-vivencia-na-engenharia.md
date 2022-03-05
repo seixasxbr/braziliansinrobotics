@@ -2,7 +2,7 @@
 layout: post-page
 title: Minha vivência na engenharia
 subtitle: Especial Dia das Mulheres
-cover-img: /assets/img/mulheres-juliana/bg1.jpeg
+cover-img: /assets/img/2022-02-08-minha-vida-na-engenharia/bg1.jpeg
 thumbnail-img: assets/img/people/juliana-1.png
 author: Juliana Santana
 comments: true
@@ -10,18 +10,18 @@ tags: [blog]
 ---
 
 
-Olá. Me chamo Juliana. Sou formada em Engenharia Elétrica. E, gostaria de compartilhar um pouco da minha vivência. Espero, dessa forma, incentivar outras meninas e mulheres a explorar as trilhas da engenharia, principalmente a elétrica.
+Olá. Sou Juliana, formada em Engenharia Elétrica; e gostaria de compartilhar um pouco da minha vivência. Espero, dessa forma, incentivar outras meninas e mulheres a explorar as trilhas da engenharia, principalmente a elétrica.
 
 A escolha dessa área veio por identificação dadas algumas experiências que tive nos últimos anos do ensino médio. Não tinha muita ideia do ambiente que iria encontrar mas estava focada em vivênciar todas as experiências que esta área poderia proporcionar.
 
-Na época em que entrei na faculdade ouvia falar que esse curso era desafiador e que as mulheres eram minoria. E, era verdade. Mas tive sorte de encontrar um ambiente de apoio e respeitoso. Também encontrei os desafios e barreiras mas pude ultrapassá-los através da ajuda e incentivo das minhas amigas, pois tínhamos o apoio umas das outras. 
+Na época em que entrei na faculdade ouvia falar que esse curso era desafiador e que as mulheres eram minoria. E era verdade. Mas tive sorte de encontrar um ambiente de apoio e respeitoso. Também encontrei os desafios e barreiras mas pude ultrapassá-los através da ajuda e incentivo das minhas amigas, pois tínhamos o apoio umas das outras. 
 
 Além disso, também conheci outras mulheres incríveis, as quais foram minhas professoras, e uma inspiração para mim.
-Dessa forma, fui crescendo e me desenvolvendo. E, percebendo quais eram os pontos que destacavam-se entre nós. **Determinação**, **foco**, **ter atitude** foram ferramentas essências. E, ao longo dessa jornada fomos nos tornando mais fortes.
+Dessa forma, fui crescendo e me desenvolvendo. E percebendo quais eram os pontos que destacavam-se entre nós. 
 
-Por isso, eu posso dizer se ser uma engenheira é o seu sonho, o seu desejo, não tenha medo pois ao escolher este caminho você será capaz de atingir os seus objetivos e conhecer outras mulheres sensacionais que irão contribuir para seu crescimento. Desejo que a participação feminina seja cada vez maior, principalmente na área da Elétrica que é ampla, desafiadora e também muito divertida, repleta de oportunidades com a quais você pode se identificar. 
+**Determinação**, **foco**, **ter atitude** foram ferramentas essências. E, ao longo dessa jornada fomos nos tornando mais fortes.
 
-<br>
+Por isso, eu posso dizer que, se ser uma engenheira é o seu sonho, o seu desejo, não tenha medo pois ao escolher este caminho você será capaz de atingir os seus objetivos e conhecer outras mulheres sensacionais que irão contribuir para seu crescimento. 
 
 > "isso de querer<br>
   &nbsp;ser exatamente aquilo<br>
@@ -29,6 +29,13 @@ Por isso, eu posso dizer se ser uma engenheira é o seu sonho, o seu desejo, nã
   &nbsp;ainda vai<br>
   &nbsp;nos levar além"<br>
   &nbsp;&nbsp;      -Paulo Leminski <br>
+
+
+Desejo que a participação feminina seja cada vez maior, principalmente na área da Elétrica que é ampla, desafiadora e também muito divertida, repleta de oportunidades com a quais você pode se identificar. 
+
+<br>
+
+
 
 
 <hr>
