@@ -27,106 +27,30 @@ subtitle: Um veículo aéreo não tripulado autônomo
 </div>
 
 <!-- ## Introdução -->
-O uso de veículos aéreos não tripulados tem se popularizado em diversas áreas, como agricultura, cinematografia, militar, entretenimento, inspeção e de entregas. Muitas dessas tarefas tem a necessidade da implementação de autonomia nesse tipo de plataforma. Nesse contexto, se iniciou o desenvolvimento do projeto Carcara, que envolve a concepção de um VANT do tipo quadrotor e a implementação da autonomia nele. O principal objetivo desse projeto é realizar o pouso autônomo dessa veículo em uma plataforma móvel, já que um dos grandes desafios do uso de drones é a sua baixa autonomia (tempo de vôo) e pode existir a necessidade dessa operação para ser realizada uma possível recarga da bateria.
- 
-<p>
-<strong>Bbot</strong> ou <i>Balancing Robot</i>, é um projeto de robô autônomo auto-balanceado <a href="#GURTNER">[GURTNER]</a>. Nosso objetivo é construir um robô móvel operado via <strong>ROS Noetic</strong> capaz de <strong>se equilibrar e se deslocar sobre duas rodas</strong>. Ademais, ele deve ser capaz de realizar a leitura de uma TAG (marco fiducial, <a href="#SANTOS">[SANTOS]</a>). A TAG enviará ao robô uma posição de destino à qual ele deve <strong>navegar de forma autônoma</strong>. Para realizar a navegação, esse robô deverá ser capaz de <strong>criar um mapa do local onde está e se localizar nele</strong>, permitindo-o atualizar sua posição ao longo da missão e <strong>desviar de obstáculos</strong> enquanto navega até seu objetivo. 
-</p>{: style="text-align: justify;"}
+O uso de veículos aéreos não tripulados tem se popularizado em diversas áreas, como agricultura, cinematografia, militar, entretenimento, inspeção e de entregas. Muitas dessas tarefas tem a necessidade da implementação de autonomia nesse tipo de plataforma. Nesse contexto, se iniciou o desenvolvimento do projeto Carcara, que envolve a concepção de um VANT do tipo quadrotor e a implementação da autonomia nele. O principal objetivo desse projeto é realizar o pouso autônomo dessa veículo em uma plataforma móvel, já que um dos grandes desafios do uso de drones é a sua baixa autonomia (tempo de vôo) e pode existir a necessidade dessa operação para ser realizada uma possível recarga da bateria. O veículo móvel que será usado para a realização do pouso é uma caminhonete modelo L200.
 
-<br>
+<center>
+  <img src="{{ 'assets/img/carcara/objetivo4.png' | relative_url }}" width="750" text-align=center alt="img1" />
+</center>
+ 
 
 ### DESIGN E CARACTERÍSTICAS
 
-Existem duas principais configurações para quadrotores, sendo elas a configuração plus (+) ou a configuração cross (x). A configuração escolhida para o carcará foi a cross, devido ao menor consumo energético na translação para essa configuração, maior estabilidade e também pelo fato da configuração plus causar oclusão na câmera. O framework utilizado para gerenciar o Carcara é o ROS2 e sua modelagem foi desenvolvida no onshape?.
+Existem duas principais configurações para quadrotores, sendo elas a configuração plus (+) ou a configuração cross (x). A configuração escolhida para o carcará foi a cross, devido ao menor consumo energético na translação para essa configuração, maior estabilidade e também pelo fato da configuração plus causar oclusão na câmera. O framework utilizado para gerenciar o Carcara é o ROS2 e sua modelagem foi desenvolvida no Onshape.
 
-<p>
-O <strong>Bbot</strong> conta com um <i>design</i> adequado ao seu modo de atuação. Sua baixa estatura, aproximadamente 36 cm, permite uma fácil manipulação e operação em ambientes <i>indoor</i>. Sua forte estrutura, com peças para amortecer impacto, o protegem de eventuais quedas. Além disso, boa parte da sua massa foi alocada na parte superior, o que é uma grande vantagem para robôs auto-balanceados, pois a elevação do ponto de gravidade auxilia no equilíbrio.
-</p>{: style="text-align: justify;"}
-
-Outra grande vantagem do **Bbot** são suas pernas articuladas com 2 graus de liberdade.
+<center>
+  <img src="{{ 'assets/img/carcara/carcarareal.jpg' | relative_url }}" width="750" text-align=center alt="img1" />
+</center>
 
 <br>
 
 ### TECNOLOGIA ENVOLVIDA
 
-O Carcara conta com diversos sensores e tecnologias para auxiliar no seu funcionamento. 
-Para o fornecimento de energia o Carcara conta com uma bateria Lipo de 500 mAh 60c 3S e uma Hub matek mini power para distribuir a energia.
-Os motores dos propulsores são motores trifásicos Brushless do tipo X2212 de 13 kV 980 II?
-Os componentes responsáveis pela percepção são duas câmeras raspberry pu v2 de 8 MP, uma orientada para a frente do robô e uma para baixo. 5 sensores ultrassônicos HC-SR04 para ajudar no desvio de obstáculos, um laser ROF10120 para baixo para ajudar na obtenção da altitude, uma IMU MPU 9250 e um barômetro.
-A unidade de processamento principal é um teensy 4.0 enquanto a unidade de processamento auxiliar é uma jetson nano development kit para processar redes neurais e processamento de imagem etc.
-Para a funcionalidade de comunicação, ele possui um Radio receiver fs-r6b e um adaptador wifi ac600.
-
-<p>
-O <strong>Bbot</strong> é equipado para a ação. Com seus diversos componentes ele pode realizar tarefas em ambientes indoor.
-</p>{: style="text-align: justify;"}
-
-<p style="text-align: justify;">
-O robô conta com dois controladores, o principal é um Raspberry Pi 4 e suporta o ROS Noetic, já o secundário é um OpenCM9.04 com uma placa de expansão (OpenCM 485) e cuida das entradas e saídas dos atuadores.
-</p>
-
-<p>
-Já na parte de atuação, temos para cada perna, 2 <i>dynamixels MX106</i> e 1 <i>dynamyxel XM430-W210</i> para locomoção da roda. As rodas são envolvidas em borracha de silicone, tornando o pneu mais aderente ao solo.
-</p>{: style="text-align: justify;"}
-
-<p align="center">
-    <img src="{{ 'assets/img/bbot/controladores_atuadores.png' | relative_url }}" alt="Not found" width="750"/>
-</p>
-
-<p>
-O <strong>bbot</strong> conta ainda com sensores que são responsáveis por aquisições de dados em tempo real e um sistema de <strong>controle de potência!!</strong>
-</p>{: style="clear: right; padding-top: 25px; text-align: justify;"}
-
-<p>
-O LiDAR (Light Detection And Ranging), é um sensor que pode revelar a geometria do ambiente ao seu redor. A câmera RGB é capaz de detectar e codificar cores no espaço.
-</p>{: style="text-align: justify;"}
-
-<p>
-O IMU detecta variações na inclinação do robô e o sensor de tensão é usado para o controle de falhas.
-</p>{: style="text-align: justify;"}
-
-<p>
-O sistema é alimentado por uma LiPO 3s e conta com uma placa para distribuir a energia aos componentes. Também comporta um regulador de tensão para energizar a Raspberry Pi 4.
-</p>{: style="text-align: justify;"}
-
-<p align="center">
-    <img src="{{ 'assets/img/bbot/sensores_pot.png' | relative_url }}" alt="Not found" width="750"/>
-</p>
-
-<br>
-
-### IMPLEMENTAÇÃO DO ROBÔ SIMULADO
-
-Com a utilização do _Gazebo - ROS_ como ferramenta de simulação do ambiente e do robô, nós conseguimos chegar na estabilidade e teleoperação do **Bbot**. Para isso, utilizamos o controlador LQR.
+O Carcara conta com diversos sensores e tecnologias para auxiliar no seu funcionamento. Para o fornecimento de energia o Carcara conta com uma bateria LiPo de 500 mAh 60C 3S e uma Mini Power Hub Matek para distribuir a energia. Os motores dos propulsores são motores trifásicos Brushless do tipo X2212 de 13 kV 980 II e os controladores dos motores são ESC Racestar 30A. Os componentes responsáveis pela percepção são duas câmeras Raspberry Pi v2 de 8MP, uma orientada para a frente do robô e uma para baixo, 5 sensores ultrassônicos HC-SR04 para ajudar no desvio de obstáculos, um laser TOF10120 orientado para baixo para medir distância, uma IMU MPU-9250 e um barômetro MS5611. A unidade de processamento central é um Teensy 4.0 enquanto a unidade de processamento auxiliar é uma Jetson Nano Development Kit para processar redes neurais, processamento de imagem, etc. Para a funcionalidade de comunicação, ele possui um Radio Receiver FS-R6B e um adaptador WiFi AC600.
 
 <center>
-<iframe width="360" height="315" src="https://www.youtube.com/embed/ycF7wwak_io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="360" height="315" src="https://www.youtube.com/embed/yk-3Swis2Z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <img src="{{ 'assets/img/carcara/exploded.png' | relative_url }}" width="550" text-align=center alt="img1" />
 </center>
-
-Não menos importante, conseguimos tornar o robô autônomo, com a utilização de algoritmos para navegação e localização. 
-
-<p align="center">
-    <img src="{{ 'assets/img/bbot/navigation.gif' | relative_url }}" alt="Not found" width="750"/>
-</p>
-
-<br>
-
-### IMPLEMENTAÇÃO DO ROBÔ REAL
-
-Após a implementação e estudo para validação do modelo com a simulação, fizemos a implementação do robô real!!
-
-<center>
-<iframe width="360" height="315" src="https://www.youtube.com/embed/p4HWfqaTFYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="360" height="315" src="https://www.youtube.com/embed/ZBc304Rp0nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
-Os testes apresentados mostram que o robô conseguese se estabilizar e aguenta pequenas perturbações.
-
-O projeto continua em andamento e vamos seguir para a **Fase II**. Iremos fazer algumas melhorias que observamos ao decorrer desta primeira etapa de projeto (Você pode ver algumas melhorias listadas neste [LINK](https://mhar-vell.github.io/rasc/2021-11-26-bbot-first-time-standing/)). Continue atento para mais novidades!! <img src="{{ 'assets/img/bbot/bbot.png' | relative_url }}" alt="Bbot" width="17"/><img src="{{ 'assets/img/bbot/bbot.png' | relative_url }}" alt="Bbot" width="17"/>
-
-<br>
-
-<hr>
 
 <br>
 
@@ -137,15 +61,15 @@ O projeto continua em andamento e vamos seguir para a **Fase II**. Iremos fazer 
     <table class="table-borderless highlight">
       <thead>
         <tr>
-          <th><center><a href="https://www.linkedin.com/in/matheus-fran%C3%A7a-b62044150/" target="_blank">
+          <th><center><a href="https://www.linkedin.com/in/mateus-seixas-59296a190/" target="_blank">
                 <p align="center">
-                    <img src="{{ 'assets/img/people/matheusfrança-1.png' | relative_url }}" alt="Not found" width="100" class="img-fluid rounded-circle" />
+                    <img src="{{ 'assets/img/people/mateusseixas-1.png' | relative_url }}" alt="Not found" width="100" class="img-fluid rounded-circle" />
                 </p>
             </a></center></th>
             <th></th>
-             <th><center><a href="https://www.linkedin.com/in/lucas-lins-souza-51b1909a/" target="_blank">
+             <th><center><a href="https://www.linkedin.com/in/diogo-alexandre-martins/" target="_blank">
                 <p align="center">
-                    <img src="{{ 'assets/img/people/lucaslins-1.png' | relative_url }}" alt="Not found" width="100" class="img-fluid rounded-circle" />
+                    <img src="{{ 'assets/img/people/diogomartins-1.png' | relative_url }}" alt="Not found" width="100" class="img-fluid rounded-circle" />
                 </p>
             </a></center></th>
           <th></th>
@@ -158,16 +82,16 @@ O projeto continua em andamento e vamos seguir para a **Fase II**. Iremos fazer 
       </thead>
       <tbody>
         <tr class="font-weight-bolder" style="text-align: center margin-top: 0">
-          <td width="33.33%">Matheus França</td>
+          <td width="33.33%">Mateus Seixas</td>
           <td></td>
-          <td width="33.33%">Lucas Souza</td>
+          <td width="33.33%">Diogo Martins</td>
           <td></td>
           <td width="33.33%">Marco Reis</td>
         </tr>
         <tr style="text-align: center" >
-          <td style="vertical-align: top;text-align: justify;"><small>Estagiário no laboratório de Robótica e Sistemas Autônomos (RoSA), Senai Cimatec, graduando em Engenharia de Controle e Automação na Área 1.</small></td>
+          <td style="vertical-align: top;text-align: justify;"><small>Pesquisador em Robótica no Centro de Competências em Robótica e Sistemas Autônomos do Senai Cimatec. Graduado e mestrando em Engenharia Elétrica pela Universidade Federal da Bahia. Amante da natureza.</small></td>
           <td></td>
-          <td style="vertical-align: top;text-align: justify;"><small>Estagiário no laboratório de Robótica e Sistemas Autônomos (RoSA), Senai Cimatec, graduando em Engenharia Elétrica no Senai Cimatec.</small></td>
+          <td style="vertical-align: top;text-align: justify;"><small>Ajuda.</small></td>
           <td></td>
           <td style="vertical-align: top;text-align: justify;"><small>Pesquisador Sênior do projeto <br>Mestre em Engenharia de Produção e Eng. Eletricista.</small></td>
         </tr>
@@ -179,24 +103,24 @@ O projeto continua em andamento e vamos seguir para a **Fase II**. Iremos fazer 
 <br>
 
 ### Resumo do Projeto
-1. Categoria: <font color="#fbb117">Robótica Móvel</font>
+1. Categoria: <font color="#fbb117">Aerial Robotics</font>
 2. Prazo: <font color="#fbb117">7 meses</font>
-3. Data de início: <font color="#fbb117">11/maio/2021</font>
-4. Data de término: <font color="#fbb117">11/dezembro/2021</font>
-5. Repositório robô real: <a href="https://github.com/Brazilian-Institute-of-Robotics/bir_bbot"><font>Bir_Bbot</font></a>
-5. Repositório robô simulado: <a href="https://github.com/Brazilian-Institute-of-Robotics/bir_bbot-simulation"><font>Bir_Bbot-simulation</font></a>
-6. Sponsor: <a href="http://www.senaicimatec.com.br/en/"><font color="#fbb117">Senai CIMATEC</font></a>
-7. Recursos materiais: <font color="#fbb117">$USD 3162,64</font>
-8. Apresentação URL: <a href="https://github.com/Brazilian-Institute-of-Robotics/bir_bbot-docs"><font>Bbot-docs</font></a>
-9. Report URL: <a href="https://github.com/Brazilian-Institute-of-Robotics/bir_bbot-docs/tree/doc/report"><font>Bbot-report</font></a>
-10. Artigos produzidos: 
+3. Data de início: <font color="#fbb117">01/maio/2022</font>
+4. Data de término: <font color="#fbb117">22/dezembro/2022</font>
+<!-- 5. Repositório robô real: <a href="https://github.com/Brazilian-Institute-of-Robotics/bir_bbot"><font>Carcara</font></a> -->
+<!-- 5. Repositório robô simulado: <a href="https://github.com/Brazilian-Institute-of-Robotics/bir_bbot-simulation"><font>Bir_Bbot-simulation</font></a> -->
+5. Sponsor: <a href="http://www.senaicimatec.com.br/en/"><font color="#fbb117">Senai CIMATEC</font></a>
+<!-- 6. Recursos materiais: <font color="#fbb117">$USD 3162,64</font> -->
+<!-- 8. Apresentação URL: <a href="https://github.com/Brazilian-Institute-of-Robotics/bir_bbot-docs"><font>Bbot-docs</font></a> -->
+<!-- 9. Report URL: <a href="https://github.com/Brazilian-Institute-of-Robotics/bir_bbot-docs/tree/doc/report"><font>Bbot-report</font></a> -->
+<!-- 10. Artigos produzidos:  -->
 
 <br>
 
 ### Referências
 
-1. <a id="GURTNER">**Adam Kollarčík and Martin Gurtner**</a>; Modeling and Control of Two-Legged Wheeled Robot; Master’s thesis, CZECH TECHNICAL UNIVERSITY IN PRAGUE. 2021.
-1. <a id="SANTOS">**Santos, Gabriel da Silva; Cardoso, Etevaldo; Reis, Marco Antonio dos**</a>; "Localização de Robôs Móveis em Ambiente Internos usando Marcos Fiduciais", p. 226-233 . In: **Anais do V Simpósio Internacional de Inovação e Tecnologia**. São Paulo: Blucher, 2019.
+<!-- 1. <a id="GURTNER">**Adam Kollarčík and Martin Gurtner**</a>; Modeling and Control of Two-Legged Wheeled Robot; Master’s thesis, CZECH TECHNICAL UNIVERSITY IN PRAGUE. 2021. -->
+<!-- 1. <a id="SANTOS">**Santos, Gabriel da Silva; Cardoso, Etevaldo; Reis, Marco Antonio dos**</a>; "Localização de Robôs Móveis em Ambiente Internos usando Marcos Fiduciais", p. 226-233 . In: **Anais do V Simpósio Internacional de Inovação e Tecnologia**. São Paulo: Blucher, 2019. -->
 
 <br>
 <hr class="mark">
