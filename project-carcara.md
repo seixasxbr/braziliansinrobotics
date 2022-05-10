@@ -6,7 +6,7 @@ subtitle: Um veículo aéreo não tripulado autônomo
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 {%- capture site_tags -%}
     {%- for tag in site.tags -%}
-      {% if tag contains 'bbot' %}
+      {% if tag contains 'carcara' %}
         {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
       {% endif %} 
     {%- endfor -%}
@@ -78,20 +78,30 @@ O Carcara conta com diversos sensores e tecnologias para auxiliar no seu funcion
                     <img src="{{ 'assets/img/people/marcoreis8b&w-1.png' | relative_url }}" alt="marco" width="100" class="img-fluid rounded-circle" />
                 </p>
             </a></center></th>
+            <th></th>
+          <th><center><a href="https://mhar-vell.github.io/portfolio/" target="_blank">
+                <p align="center">
+                    <img src="{{ 'assets/img/people/marcoreis8b&w-1.png' | relative_url }}" alt="marco" width="100" class="img-fluid rounded-circle" />
+                </p>
+            </a></center></th>
         </tr>
       </thead>
       <tbody>
         <tr class="font-weight-bolder" style="text-align: center margin-top: 0">
-          <td width="33.33%">Mateus Seixas</td>
+          <td width="25%">Mateus Seixas</td>
           <td></td>
-          <td width="33.33%">Diogo Martins</td>
+          <td width="25%">Diogo Martins</td>
           <td></td>
-          <td width="33.33%">Marco Reis</td>
+          <td width="25%">Marco Reis</td>
+          <td></td>
+          <td width="25%">Marco Reis</td>
         </tr>
         <tr style="text-align: center" >
           <td style="vertical-align: top;text-align: justify;"><small>Pesquisador em Robótica no Centro de Competências em Robótica e Sistemas Autônomos do Senai Cimatec. Graduado e mestrando em Engenharia Elétrica pela Universidade Federal da Bahia. Amante da natureza.</small></td>
           <td></td>
           <td style="vertical-align: top;text-align: justify;"><small>Ajuda.</small></td>
+          <td></td>
+          <td style="vertical-align: top;text-align: justify;"><small>Pesquisador Sênior do projeto <br>Mestre em Engenharia de Produção e Eng. Eletricista.</small></td>
           <td></td>
           <td style="vertical-align: top;text-align: justify;"><small>Pesquisador Sênior do projeto <br>Mestre em Engenharia de Produção e Eng. Eletricista.</small></td>
         </tr>
@@ -104,7 +114,7 @@ O Carcara conta com diversos sensores e tecnologias para auxiliar no seu funcion
 
 ### Resumo do Projeto
 1. Categoria: <font color="#fbb117">Aerial Robotics</font>
-2. Prazo: <font color="#fbb117">7 meses</font>
+2. Prazo: <font color="#fbb117">8 meses</font>
 3. Data de início: <font color="#fbb117">01/maio/2022</font>
 4. Data de término: <font color="#fbb117">22/dezembro/2022</font>
 <!-- 5. Repositório robô real: <a href="https://github.com/Brazilian-Institute-of-Robotics/bir_bbot"><font>Carcara</font></a> -->
