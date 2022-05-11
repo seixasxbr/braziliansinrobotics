@@ -49,7 +49,7 @@ Existem duas principais configurações para quadrotores, sendo elas a configura
 O Carcara conta com diversos sensores e tecnologias para auxiliar no seu funcionamento. Para o fornecimento de energia o Carcara conta com uma bateria LiPo de 500 mAh 60C 3S e uma Mini Power Hub Matek para distribuir a energia. Os motores dos propulsores são motores trifásicos Brushless do tipo X2212 de 13 kV 980 II e os controladores dos motores são ESC Racestar 30A. Os componentes responsáveis pela percepção são duas câmeras Raspberry Pi v2 de 8MP, uma orientada para a frente do robô e uma para baixo, 5 sensores ultrassônicos HC-SR04 para ajudar no desvio de obstáculos, um laser TOF10120 orientado para baixo para medir distância, uma IMU MPU-9250 e um barômetro MS5611. A unidade de processamento central é um Teensy 4.0 enquanto a unidade de processamento auxiliar é uma Jetson Nano Development Kit para processar redes neurais, processamento de imagem, etc. Para a funcionalidade de comunicação, ele possui um Radio Receiver FS-R6B e um adaptador WiFi AC600.
 
 <center>
-  <img src="{{ 'assets/img/carcara/exploded.png' | relative_url }}" width="550" text-align=center alt="img1" />
+  <img src="{{ 'assets/img/carcara/exploded_with_transcription.png' | relative_url }}" width="550" text-align=center alt="img1" />
 </center>
 
 <br>
@@ -90,9 +90,9 @@ O Carcara conta com diversos sensores e tecnologias para auxiliar no seu funcion
         <tr class="font-weight-bolder" style="text-align: center margin-top: 0">
           <td width="25%">Mateus Seixas</td>
           <td></td>
-          <td width="25%">Diogo Martins</td>
+          <td width="25%">Erick Suzart</td>
           <td></td>
-          <td width="25%">Marco Reis</td>
+          <td width="25%">Tiago Barreto</td>
           <td></td>
           <td width="25%">Marco Reis</td>
         </tr>
@@ -101,7 +101,7 @@ O Carcara conta com diversos sensores e tecnologias para auxiliar no seu funcion
           <td></td>
           <td style="vertical-align: top;text-align: justify;"><small>Ajuda.</small></td>
           <td></td>
-          <td style="vertical-align: top;text-align: justify;"><small>Pesquisador Sênior do projeto <br>Mestre em Engenharia de Produção e Eng. Eletricista.</small></td>
+          <td style="vertical-align: top;text-align: justify;"><small>Ajuda.</small></td>
           <td></td>
           <td style="vertical-align: top;text-align: justify;"><small>Pesquisador Sênior do projeto <br>Mestre em Engenharia de Produção e Eng. Eletricista.</small></td>
         </tr>
